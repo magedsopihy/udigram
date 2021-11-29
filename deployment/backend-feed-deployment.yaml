@@ -23,7 +23,7 @@ spec:
               memory: "64Mi"
               cpu: "250m"
             limits:
-              memory: "2048Mi"
+              memory: "3072Mi"
               cpu: "500m"
           env:
             - name: URL
@@ -75,7 +75,7 @@ spec:
             - name: aws-secret
               mountPath: "/root/.aws/"
               readOnly: true
-      restartPolicy: Always
+      # restartPolicy: Always
       volumes:
         - name: aws-secret
           secret:

@@ -1,8 +1,8 @@
 # This file is used for convenience of local development.
 # DO NOT STORE YOUR CREDENTIALS INTO GIT
-export POSTGRES_USERNAME=sopihydev
-export POSTGRES_PASSWORD=sopihydev
-export POSTGRES_HOST=postgres.c8b3hxwx2fds.us-west-2.rds.amazonaws.com
+export POSTGRES_USERNAME=postgres
+export POSTGRES_PASSWORD=postgres
+export POSTGRES_HOST=postgres.cposnpe0q3kh.us-east-1.rds.amazonaws.com
 export POSTGRES_DB=postgres
 export AWS_BUCKET=sopihy-microservices
 export AWS_REGION=us-east-1
