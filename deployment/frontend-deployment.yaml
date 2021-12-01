@@ -15,7 +15,7 @@ spec:
         service: frontend
     spec:
       containers:
-        - image: magedsopihy/udagram-frontend:v1
+        - image: magedsopihy/udagram-frontend:v3
           name: frontend
           imagePullPolicy: Always
           ports:
