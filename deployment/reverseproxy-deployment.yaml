@@ -18,6 +18,8 @@ spec:
         - image: magedsopihy/reverseproxy:v1
           name: reverseproxy
           imagePullPolicy: Always
+          ports:
+          - containerPort: 8080
           resources:
             requests:
               memory: "64Mi"
@@ -26,7 +28,4 @@ spec:
               memory: "1024Mi"
               cpu: "500m"
       restartPolicy: Always
-      volumes:
-        - name: aws-secret
-          secret:
-            secretName: aws-secret
+      

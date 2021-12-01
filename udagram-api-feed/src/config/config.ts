@@ -1,5 +1,4 @@
 
-
 export const config = {
   'username': process.env.POSTGRES_USERNAME,
   'password': process.env.POSTGRES_PASSWORD,
@@ -14,3 +13,4 @@ export const config = {
     'secret': process.env.JWT_SECRET,
   },
 };
+
